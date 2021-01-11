@@ -49,7 +49,7 @@ class MusicPlayer:
     scrol_y.config(command=self.playlist.yview)
     self.playlist.pack(fill=BOTH)
     # Changing Directory for fetching Songs
-    os.chdir("/home/user/PycharmProjects/play")
+    os.chdir("/home/user/PycharmProjects/play/music")
 
     # Fetching Songs
     songtracks = os.listdir()
